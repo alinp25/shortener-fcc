@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>URL SHORTENER</title>
+    <meta name="description" content="A cool thing made with Glitch">
+    <link id="favicon" rel="icon" href="https://glitch.com/edit/favicon-app.ico" type="image/x-icon">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/style.css">
+  </head>
+  <body>
+    <h1>
+      URL Shortener
+    </h1>
+    
+    <ul>
+      <li>You can pass an URL as a parameter and you will receive a shortened URL in the JSON response.</li>
+      <li>When you visit that shortened URL, you will be redirectedto the original link.</li>
+    </ul>
+
+    <h3>
+      Example creation usage:
+    </h3>
+    <ul>
+      <li>hhttps://enormous-panda.glitch.me/new/http://google.com</li>
+      <li>https://enormous-panda.glitch.me/new/http://freecodecamp.com</li>
+    </ul>
+    
+    <h3>
+      Example creation output:
+    </h3>
+      <p>
+        {"original_url":"http://freecodecamp.com","short_url":"0"}
+    </p>
+    
+    <h3>
+      Usage:
+    </h3>
+    <ul>
+      <li>http://eager-chance.glitch.me/2</li>
+    </ul>
+    
+    <h3>
+      Will redirect to:
+    </h3>
+    <ul>
+        <li>http://google.com</li>
+    </ul>
+    
+  </body>
+</html>
